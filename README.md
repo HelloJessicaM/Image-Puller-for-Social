@@ -1,6 +1,5 @@
 # Image-Puller-for-Social
-Pull image urls to a column in google sheets
-A Google Apps Script to Populate Image URLs in a Google Sheet
+Pulls image urls to a column in google sheets - a Google Apps Script to Populate Image URLs in a Google Sheet
 
 This script fetches image filenames from a public directory listing and updates a target column in Google Sheets with comma-separated URLs that are compatible with social media schedulers such as Sociamonials.
 It also matches your images to the post title, so make sure that your images are named "post_title_001.jpg", "post_title_002.jpg" etc. 
@@ -14,8 +13,8 @@ Post_title_(3)_0001.jpg
 
 This is ideal for using with Zimmwriter, with the bulk social media scheduler and then making custom image sizes in the bulk image creator (just paste in your post titles). 
 
-##setup
-Put this in the index.php of where your images are. The appscript scrapes the output of this page!
+## Setup
+Put this in the index.php of where your images are (this code is also in optional-index.php) . The appscript scrapes the output of this page!
 <?php
 echo "Here are our files <br />";
 $path = ".";
