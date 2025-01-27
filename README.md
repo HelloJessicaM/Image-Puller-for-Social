@@ -36,4 +36,4 @@ After running, each row with a valid post title will be populated with the match
 
 ## License
 
-Add any license you like, e.g. [MIT](https://opensource.org/licenses/MIT).
+[MIT](https://opensource.org/licenses/MIT).
