@@ -14,6 +14,23 @@ Post_title_(3)_0001.jpg
 
 This is ideal for using with Zimmwriter, with the bulk social media scheduler and then making custom image sizes in the bulk image creator (just paste in your post titles). 
 
+##setup
+Put this in the index.php of where your images are. The appscript scrapes the output of this page!
+<?php
+echo "Here are our files <br />";
+$path = ".";
+$dh = opendir($path);
+$i=1;
+while (($file = readdir($dh)) !== false) {
+    if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
+        echo "<a href='$path/$file'>$file</a><br /><br />";
+        $i++;
+    }
+}
+closedir($dh);
+?> 
+
+
 
 ## How to Use
 
