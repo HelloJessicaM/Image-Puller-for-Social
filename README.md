@@ -12,6 +12,8 @@ Post_title_(1)_0001.jpg
 If there is a  third usage, it would look like this:  
 Post_title_(3)_0001.jpg
 
+This is ideal for using with Zimmwriter, with the bulk social media scheduler and then making custom image sizes in the bulk image creator (just paste in your post titles). 
+
 
 ## How to Use
 
